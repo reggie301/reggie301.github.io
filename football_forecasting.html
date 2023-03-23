@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Forecasting</title>
+
+    <link rel="stylesheet" href="css/football_forecasting_style.css">
+    <script src="https://kit.fontawesome.com/8eb572f8b0.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body>
+    <div class="bg"></div>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo" id='top'>
+            <a href='home.html'>
+                <img src="images/random_logo.png" alt="">
+            </a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"> <a href="#home" class="nav__link"><i class="fa-solid fa-house"></i> Home </a>
+                </li>
+                <li class="nav__item"> <a href="#services" class="nav__link"><i class="fa-solid fa-bell-concierge"></i>
+                        My services</a></li>
+                <li class="nav__item"> <a href="#about" class="nav__link"><i class="fa-solid fa-address-card"></i> About
+                        me</a></li>
+                <li class="nav__item"> <a href="#work" class="nav__link"><i class="fa-solid fa-briefcase"></i> My
+                        work</a></li>
+                <li class="nav__item"> <a href="#footer" class="nav__link"><i class="fa-solid fa-address-book"></i>
+                        Contact</a></li>
+            </ul>
+        </nav>
+
+        <nav class="nav2 hide ">
+            <ul class="nav__list2">
+                <li class="nav__item2"> <a href="#home" class="nav__link2">🏠 Home </a></li>
+                <li class="nav__item2"> <a href="#services" class="nav__link2">🏢 My services</a></li>
+                <li class="nav__item2"> <a href="#about" class="nav__link2">🙂 About me</a></li>
+                <li class="nav__item2"> <a href="#work" class="nav__link2">📄 My work</a></li>
+                <li class="nav__item2"> <a href="#footer" class="nav__link2">☎ Contact </a></li>
+            </ul>
+        </nav>
+
+        </nav>
+
+    </header>
+    <main class="main">
+        <!-- title card-->
+        <section class="title hidden">
+            <div class="title-content section__title">
+                <h1>Premier League Forecasting</h1>
+                <p>Using machine learning to predict premier league results</p>
+            </div>
+            <div class="github-link" id='title_github_link'>
+                <a href="https://github.com/reggie301/PremierLeagueForecasting">
+                    <i class="fa-brands fa-github github_image"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- about the project -->
+        <section class="about hidden">
+            <h2 class='about-heading section__title'>About the Project</h2>
+            <div class="about-content">
+                <img src='/images/football_forecasting_model.png' alt="Model Description" class='about-img'>
+                <p class="about-paragraph"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                    et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                    est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                    takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+        </section>
+
+        <!-- table -->
+        <section class="dataset hidden">
+            <h2 class='about-heading section__title'>Example Dataset</h2>
+
+            <style type="text/css">
+                table {
+                    font-family: arial, sans-serif;
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+
+                td,
+                th {
+                    border: 1px solid #dddddd;
+                    text-align: left;
+                    padding: 8px;
+                }
+
+                #T_eb22e_row0_col4 {
+                    background-color: #023858;
+                    color: #f1f1f1;
+                }
+
+                #T_eb22e_row0_col5 {
+                    background-color: #ede7f2;
+                    color: #000000;
+                }
+
+                #T_eb22e_row0_col6 {
+                    background-color: #fff7fb;
+                    color: #000000;
+                }
+
+                #T_eb22e_row1_col4 {
+                    background-color: #348ebf;
+                    color: #f1f1f1;
+                }
+
+                #T_eb22e_row1_col5 {
+                    background-color: #d2d3e7;
+                    color: #000000;
+                }
+
+                #T_eb22e_row1_col6 {
+                    background-color: #d0d1e6;
+                    color: #000000;
+                }
+
+                #T_eb22e_row2_col4 {
+                    background-color: #dddbec;
+                    color: #000000;
+                }
+
+                #T_eb22e_row2_col5 {
+                    background-color: #d6d6e9;
+                    color: #000000;
+                }
+
+                #T_eb22e_row2_col6 {
+                    background-color: #167bb6;
+                    color: #f1f1f1;
+                }
+
+                #T_eb22e_row3_col4 {
+                    background-color: #3f93c2;
+                    color: #f1f1f1;
+                }
+
+                #T_eb22e_row3_col5 {
+                    background-color: #d1d2e6;
+                    color: #000000;
+                }
+
+                #T_eb22e_row3_col6 {
+                    background-color: #cacee5;
+                    color: #000000;
+                }
+
+                #T_eb22e_row4_col4 {
+                    background-color: #a1bbda;
+                    color: #000000;
+                }
+
+                #T_eb22e_row4_col5,
+                #T_eb22e_row7_col5 {
+                    background-color: #ced0e6;
+                    color: #000000;
+                }
+
+                #T_eb22e_row4_col6 {
+                    background-color: #7eadd1;
+                    color: #f1f1f1;
+                }
+
+                #T_eb22e_row5_col4 {
+                    background-color: #f0eaf4;
+                    color: #000000;
+                }
+
+                #T_eb22e_row5_col5 {
+                    background-color: #e2dfee;
+                    color: #000000;
+                }
+
+                #T_eb22e_row5_col6 {
+                    background-color: #045e94;
+                    color: #f1f1f1;
+                }
+
+                #T_eb22e_row6_col4 {
+                    background-color: #0f76b3;
+                    color: #f1f1f1;
+                }
+
+                #T_eb22e_row6_col5 {
+                    background-color: #d8d7e9;
+                    color: #000000;
+                }
+
+                #T_eb22e_row6_col6 {
+                    background-color: #e0dded;
+                    color: #000000;
+                }
+
+                #T_eb22e_row7_col4 {
+                    background-color: #91b5d6;
+                    color: #000000;
+                }
+
+                #T_eb22e_row7_col6 {
+                    background-color: #8eb3d5;
+                    color: #000000;
+                }
+
+                #T_eb22e_row8_col4 {
+                    background-color: #187cb6;
+                    color: #f1f1f1;
+                }
+
+                #T_eb22e_row8_col5 {
+                    background-color: #d7d6e9;
+                    color: #000000;
+                }
+
+                #T_eb22e_row8_col6 {
+                    background-color: #dbdaeb;
+                    color: #000000;
+                }
+            </style>
+            <table id="T_eb22e" class="dataset-table">
+                <thead>
+                    <tr>
+                        <th id="T_eb22e_level0_col0" class="col_heading level0 col0">Home</th>
+                        <th id="T_eb22e_level0_col1" class="col_heading level0 col1">Away</th>
+                        <th id="T_eb22e_level0_col2" class="col_heading level0 col2">Date</th>
+                        <th id="T_eb22e_level0_col3" class="col_heading level0 col3">Most likely score</th>
+                        <th id="T_eb22e_level0_col4" class="col_heading level0 col4">1</th>
+                        <th id="T_eb22e_level0_col5" class="col_heading level0 col5">X</th>
+                        <th id="T_eb22e_level0_col6" class="col_heading level0 col6">2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="T_eb22e_row0_col0" class="data row0 col0">ARS</td>
+                        <td id="T_eb22e_row0_col1" class="data row0 col1">LEE</td>
+                        <td id="T_eb22e_row0_col2" class="data row0 col2">Apr01</td>
+                        <td id="T_eb22e_row0_col3" class="data row0 col3">2 - 0</td>
+                        <td id="T_eb22e_row0_col4" class="data row0 col4">67.89%</td>
+                        <td id="T_eb22e_row0_col5" class="data row0 col5">19.43%</td>
+                        <td id="T_eb22e_row0_col6" class="data row0 col6">12.68%</td>
+                    </tr>
+                    <tr>
+                        <td id="T_eb22e_row1_col0" class="data row1 col0">BHA</td>
+                        <td id="T_eb22e_row1_col1" class="data row1 col1">BRE</td>
+                        <td id="T_eb22e_row1_col2" class="data row1 col2">Apr01</td>
+                        <td id="T_eb22e_row1_col3" class="data row1 col3">1 - 1</td>
+                        <td id="T_eb22e_row1_col4" class="data row1 col4">47.49%</td>
+                        <td id="T_eb22e_row1_col5" class="data row1 col5">25.99%</td>
+                        <td id="T_eb22e_row1_col6" class="data row1 col6">26.52%</td>
+                    </tr>
+                    <tr>
+                        <td id="T_eb22e_row2_col0" class="data row2 col0">BOU</td>
+                        <td id="T_eb22e_row2_col1" class="data row2 col1">FUL</td>
+                        <td id="T_eb22e_row2_col2" class="data row2 col2">Apr01</td>
+                        <td id="T_eb22e_row2_col3" class="data row2 col3">0 - 1</td>
+                        <td id="T_eb22e_row2_col4" class="data row2 col4">23.36%</td>
+                        <td id="T_eb22e_row2_col5" class="data row2 col5">24.99%</td>
+                        <td id="T_eb22e_row2_col6" class="data row2 col6">51.65%</td>
+                    </tr>
+                    <tr>
+                        <td id="T_eb22e_row3_col0" class="data row3 col0">CHE</td>
+                        <td id="T_eb22e_row3_col1" class="data row3 col1">AVL</td>
+                        <td id="T_eb22e_row3_col2" class="data row3 col2">Apr01</td>
+                        <td id="T_eb22e_row3_col3" class="data row3 col3">1 - 1</td>
+                        <td id="T_eb22e_row3_col4" class="data row3 col4">46.31%</td>
+                        <td id="T_eb22e_row3_col5" class="data row3 col5">26.27%</td>
+                        <td id="T_eb22e_row3_col6" class="data row3 col6">27.43%</td>
+                    </tr>
+                    <tr>
+                        <td id="T_eb22e_row4_col0" class="data row4 col0">CRY</td>
+                        <td id="T_eb22e_row4_col1" class="data row4 col1">LEI</td>
+                        <td id="T_eb22e_row4_col2" class="data row4 col2">Apr01</td>
+                        <td id="T_eb22e_row4_col3" class="data row4 col3">1 - 1</td>
+                        <td id="T_eb22e_row4_col4" class="data row4 col4">34.22%</td>
+                        <td id="T_eb22e_row4_col5" class="data row4 col5">26.81%</td>
+                        <td id="T_eb22e_row4_col6" class="data row4 col6">38.98%</td>
+                    </tr>
+                    <tr>
+                        <td id="T_eb22e_row5_col0" class="data row5 col0">EVE</td>
+                        <td id="T_eb22e_row5_col1" class="data row5 col1">TOT</td>
+                        <td id="T_eb22e_row5_col2" class="data row5 col2">Apr03</td>
+                        <td id="T_eb22e_row5_col3" class="data row5 col3">0 - 1</td>
+                        <td id="T_eb22e_row5_col4" class="data row5 col4">18.45%</td>
+                        <td id="T_eb22e_row5_col5" class="data row5 col5">22.05%</td>
+                        <td id="T_eb22e_row5_col6" class="data row5 col6">59.50%</td>
+                    </tr>
+                    <tr>
+                        <td id="T_eb22e_row6_col0" class="data row6 col0">MCI</td>
+                        <td id="T_eb22e_row6_col1" class="data row6 col1">LIV</td>
+                        <td id="T_eb22e_row6_col2" class="data row6 col2">Apr01</td>
+                        <td id="T_eb22e_row6_col3" class="data row6 col3">1 - 0</td>
+                        <td id="T_eb22e_row6_col4" class="data row6 col4">52.65%</td>
+                        <td id="T_eb22e_row6_col5" class="data row6 col5">24.61%</td>
+                        <td id="T_eb22e_row6_col6" class="data row6 col6">22.74%</td>
+                    </tr>
+                    <tr>
+                        <td id="T_eb22e_row7_col0" class="data row7 col0">NEW</td>
+                        <td id="T_eb22e_row7_col1" class="data row7 col1">MUN</td>
+                        <td id="T_eb22e_row7_col2" class="data row7 col2">Apr02</td>
+                        <td id="T_eb22e_row7_col3" class="data row7 col3">1 - 1</td>
+                        <td id="T_eb22e_row7_col4" class="data row7 col4">36.28%</td>
+                        <td id="T_eb22e_row7_col5" class="data row7 col5">26.88%</td>
+                        <td id="T_eb22e_row7_col6" class="data row7 col6">36.83%</td>
+                    </tr>
+                    <tr>
+                        <td id="T_eb22e_row8_col0" class="data row8 col0">WHU</td>
+                        <td id="T_eb22e_row8_col1" class="data row8 col1">SOU</td>
+                        <td id="T_eb22e_row8_col2" class="data row8 col2">Apr02</td>
+                        <td id="T_eb22e_row8_col3" class="data row8 col3">1 - 1</td>
+                        <td id="T_eb22e_row8_col4" class="data row8 col4">51.34%</td>
+                        <td id="T_eb22e_row8_col5" class="data row8 col5">24.90%</td>
+                        <td id="T_eb22e_row8_col6" class="data row8 col6">23.76%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+
+        </section>
+
+
+        <footer class='footer'>
+            <!-- email-->
+            <a href="#top" class="footer__link">
+                <i class="fa-solid fa-angles-up"></i> Back to Top <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/reggie-leung-1967791b1/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.medium.com">
+                        <i class="fa-brands fa-medium"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto: reggie301@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class = "contact_list">
+                <li class="contact_list__item">
+                    Email: reggie301@gmail.com
+                </li>
+                <li class="contact_list__item">
+                    No: +44 (0)7518935074
+                </li>
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+    </main>
+</body>
+
+</html>
