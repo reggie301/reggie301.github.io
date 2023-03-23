@@ -6,6 +6,10 @@
 
 /*custom properties */
 
+@-ms-viewport{
+    width: device-width;
+  }
+
 :root{
     --ff-primary: 'Roboto', sans-serif ;
     --ff-secondary: 'Source Sans Pro', monospace ;
