@@ -585,7 +585,7 @@ header{
 
 .portfolio{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(290px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(40vw, 1fr));
     padding: 10px;
 }
 

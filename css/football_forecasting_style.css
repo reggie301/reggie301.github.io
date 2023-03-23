@@ -494,7 +494,7 @@ header{
     margin: auto auto;
     width: 80%;
     max-width: 700px;
-    min-width: 250px;
+    min-width: 50vw;
     display: block;
     padding-bottom: 20px;
 }
