@@ -423,7 +423,7 @@ header{
     display: block;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     background-image: url("/images/PL30-board-ball-and-Trophy-at-PL-launch.jpg");
     background-position: center;
